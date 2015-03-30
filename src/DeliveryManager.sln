@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryManager.Domain", "DeliveryManager.Domain\DeliveryManager.Domain.csproj", "{E1660DB2-2A5B-4745-89CC-AC64E9D09B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverManager.Test", "DeliverManager.Test\DeliverManager.Test.csproj", "{40BDDE32-CE74-49A5-A849-42C4301195B5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1660DB2-2A5B-4745-89CC-AC64E9D09B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1660DB2-2A5B-4745-89CC-AC64E9D09B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1660DB2-2A5B-4745-89CC-AC64E9D09B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1660DB2-2A5B-4745-89CC-AC64E9D09B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BDDE32-CE74-49A5-A849-42C4301195B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BDDE32-CE74-49A5-A849-42C4301195B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BDDE32-CE74-49A5-A849-42C4301195B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BDDE32-CE74-49A5-A849-42C4301195B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
